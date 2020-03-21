@@ -1,0 +1,12 @@
+Given a user input N, print all prime numbers below N (inclusive)
+
+Ask the user to type the number
+store the number in a variable called prime_numbers
+    check if prime_numbers is divided by itself
+And
+    check if prime_numbers is divided by one too
+  and   also less than prime_numbers
+    for  prime_number in prime_numbers  
+    type prime_numbers
+    else output 
+    it's not a prime number 
