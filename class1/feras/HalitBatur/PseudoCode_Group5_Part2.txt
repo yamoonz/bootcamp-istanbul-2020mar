@@ -1,0 +1,45 @@
+Given an input N, print all of Prime numbers below N (inclusive)
+
+1- number = (1 ...N ) inclusive 
+2- if N/2 = odd number 
+add +1 
+print N 
+
+plan b
+
+
+
+
+
+
+
+
+1-what is the input ? The input is a random number (N)
+2- what is the output ? a prime number between 2 and N (N is included)
+
+take an input from the user and assign it to N
+let i = 2
+while (i is less than or equal N)
+let x=2
+while (x is less than or euqal i/2)
+if 
+
+
+
+
+print N
+
+prime number= true;
+
+
+n= 50
+
+let i =2
+
+while(i <=50)
+
+let x =2
+while(x <= i/2 && prime number=false )
+
+if i%x = 0
+prime number = false
