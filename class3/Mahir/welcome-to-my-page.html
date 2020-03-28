@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Hi I'm Mahir Süleyman, welcome to my page!</title>
+
+    <style>
+      ul{
+        line-height: 25px;
+        font-size: large;
+      }
+
+      .myFont{
+        font-style: italic;
+        color: rgb(223, 0, 156);
+      }
+
+      table{
+          border-collapse: collapse;
+          width: 45%;
+      }
+
+      th, td{
+        height: 25px;
+      }
+
+      table, th, td {
+        text-align: center;
+        border: 2px solid rgb(2, 2, 187);
+      }
+    </style>
+
+  </head>
+
+  <!-- While working on this, do remember to use the proper semantics 👍-->
+
+  <body>
+    <!-- Create a big text that contains Your name -->
+    <h1>Mahir Süleyman</h1>
+
+    <!-- Create list 📃 that will be used for navigations that contains the following:
+    Home, About, FAQ, Login
+    -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+
+    <!--  Add a picture here of something you like and add description to it  -->
+    <section>
+      <div>
+        <img src="https://bostonglobe-prod.cdn.arcpublishing.com/resizer/Oyo4TykIQr-wDW3ztz1XsFYa18s=/1024x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/Y5GUIDYVWJGVFP5MWNYJR5375I.png" hight="200" width="400"><br>
+        <b>“Woman Yelling at Cat” was the dominant (and least stable) meme of 2019.</b>
+      </div>
+    </section>
+
+    <br><br><br>
+
+      <!-- Talk a little bit about yourself here, talk about
+          where you're from, date of birth (needs to be search engine friendly) , where you studied before,
+          use bold when you mention things you like ♥ and italic when mentioning something you dislike 💔 -->
+    <section>
+      <h2 class="myFont">About me:</h2>
+      My name is Mahir Süleyman, a Syrian lives in Istanbul-Turkey.<br>
+      I was born on 19.04.1993 in Idlib-Syria.<br>
+      I was studying computer engineering at <b>Aleppo University</b> but because of the <i style="color: brown; font-size: large;">WAR</i> in country I had to come to Turkey and now I'm completing my study at <b>Istanbul University</b>.
+    </section>
+
+    <br><br><br>
+
+      <!-- Create a table here that contains the following data about your friends :
+      Columns: Name, address, school, phone number, date of birth
+      Add data that corresponds to the columns mentioned above, Doesn't have to be true 😁
+      -->
+    <section>
+      <h2 class="myFont">My best friends:</h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>School</th>
+          <th>Phone number</th>
+          <th>Date of birth</th>
+        </tr>
+        <tr>
+          <td>Mohamed</td>
+          <td>Turkey</td>
+          <td>Idlib University</td>
+          <td>+905xxxxxxxxx</td>
+          <td>05.11.1993</td>
+        </tr>
+        <tr>
+          <td>Ali</td>
+          <td>Syria</td>
+          <td>Technical High School</td>
+          <td>+9639xxxxxxxx</td>
+          <td>28.02.1993</td>
+        </tr>
+        <tr>
+          <td>Majed</td>
+          <td>Turkey</td>
+          <td>Bulent Ecevit University</td>
+          <td>+905xxxxxxxxx</td>
+          <td>15.01.1997</td>
+        </tr>
+      </table>
+    </section>
+
+    <br><br><br>
+
+      <!-- Take your favorite video from youtube and make it playable from this page -->
+    <section>
+      <h2 class="myFont">Here is one of my videos on YouTube:</h2>
+      <iframe width="748" height="421" src="https://www.youtube.com/embed/q8M_n5G4N-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <br><br><br>
+
+    <!-- Add a form to contact you that has Name, Email, and Message -->
+    <section>
+      <h2 class="myFont">Contact us:</h2>
+      <form>
+        <div>
+          <label for="name">Name:</label><br>
+          <input type="text" name="name" id="name">
+        </div>
+        <div>
+          <label for="email">E-mail:</label><br>
+          <input type="email" name="email" id="email">
+        </div>
+        <div>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here!!"></textarea>
+        </div>
+        <br>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </form>
+    </section>
+
+    <br><br><br>
+
+    <!-- Add a footer with links to social media, links don't have to go anywhere -->
+    <footer>
+      <h3 class="myFont">Follow me on:</h3>
+      <a href="https://www.facebook.com/maher.suleyman.ms">Facebook</a> |
+      <a href="https://www.instagram.com/maher.suleyman">Instagram</a> |
+      <a href="https://www.youtube.com/channel/UCqrmmzzU58k7pSfbACoCEgw">YouTube</a>
+    </footer>
+
+    <br><br><br><br><br><br>
+
+  </body>
+
+</html>

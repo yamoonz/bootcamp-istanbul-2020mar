@@ -1,0 +1,30 @@
+Start 
+Go to the kitchen
+Get the water bottle
+if there's water in the bottle 
+pour water into the water boiler 
+else order a bottle of water 
+boilers : (smaller, bigger)
+for(boiler in boilers)
+  choose boiler = smaller
+Get the water boiler
+pour water into the water boiler 
+if(boiler is broken)
+  get the other boiler
+Put the water boiler on the the oven
+turn the oven on
+check if the over has gas
+if it has enough gas
+ turn the oven on 
+else
+    fill the oven with gas    
+if(water is hot enough)
+  turn off the oven 
+  break 
+else keep boiling the water 
+cups : (white cup ,  yellow cup , green cup )
+put the boiled water into a cup 
+for cup in cups : 
+( pour water in cups )
+
+finish
