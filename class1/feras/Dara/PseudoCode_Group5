@@ -1,0 +1,30 @@
+How to boil Water...
+basil
+Dara
+halit
+
+1- go to the kitchen
+2- if (door is closed)
+3- open door
+4- else enter the kitchen
+5- Look for the kettle 
+6-if kettle is not found
+7-get a cooker
+8-else  fill the kettle with tap water and turn it on
+9-search for water bottle
+10-if water bottle is not found
+11- use tap water
+12-fill the cooker with tap water
+13-turn on the stove
+14-if stove is not working
+15-call maintainance
+16-while(maintainance is fixing the stove)
+17-chill
+18-if stove is fixed
+19-turn it on
+20-put the cooker on the stove
+21-attach a thermo meter
+22-while(temp<100):
+23- keep the stove on
+24-if (temp==100) turn off the stove
+25- while water is booiling put some eggs not to waste 

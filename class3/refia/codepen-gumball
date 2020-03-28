@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hi I'm Refia, welcome to my page!</title>
+</head>
+<!-- While working on this, do remember to use the proper semantics 👍-->
+<body>
+   <font size="50">Refia \o/</font> 
+    <!-- Create a big text that contains Your name -->
+  <nav> 
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>FAQ</li>
+      <li>Login</li>
+    </ul>
+  </nav>
+    <!-- Create list 📃 that will be used for navigations that contains the following:
+    Home, About, FAQ, Login
+    -->
+ <img src="https://m.media-amazon.com/images/M/MV5BNjdiZjEzZmEtZDc1Yi00NGRhLThmYWItODMyNWM1NGExMzViXkEyXkFqcGdeQXVyMTEwOTMwMjk0._V1_.jpg" alt="The Amazing World of Gumball" height="300" width="240"/>
+  
+<!--  Add a picture here of something you like and add description to it  -->
+  <p> I'm Refia. I was born in Konya/Turkey on <time datetime="1994-06-20">June 20.</time> I studied Foreign Languge Education at Bogazici University. I like doing <strong>yoga</strong> (even though i'm a real amateur :D) and (confession) i'm really not a big fan of <em>coffee</em>.</p>
+  
+    <!-- Talk a little bit about yourself here, talk about
+        where you're from, date of birth (needs to be search engine friendly) , where you studied before,
+        use bold when you mention things you like ♥ and italic when mentioning something you dislike 💔 -->
+ <table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>School</th>
+    <th>Date of Birth</th>
+  </tr>
+  <tr>
+    <td>Gumball</td>
+    <td>Elmore Junior High</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Darwin</td>
+    <td>EJH</td>
+    <td>10</td>
+  </tr>
+   <tr>
+    <td>Anais</td>
+    <td>EJH</td>
+    <td>4</td>
+  </tr>
+</table> 
+    <!-- Create a table here that contains the following data about your friends :
+    Columns: Name, address, school, phone number, date of birth
+    Add data that corresponds to the columns mentioned above, Doesn't have to be true 😁
+    -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VHcm3fHYw3s" frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+  <!-- Take your favorite video from youtube and make it playable from this page -->
+  <p>
+  <h4> Contact me </h4>
+   <form>
+  <label for="fname">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">E-mail:</label><br>
+  <input type="text" id="email" name="email"><br>
+   <label for="message">Your message:</label><br>
+  <input type="text" id="message" name="message">  
+  </form> 
+  </p>
+    <!-- Add a form to contact you that has Name, Email, and Message -->
+
+    <div>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-twitter"></a>
+    </div>
+    <!-- Add a footer with links to social media, links don't have to go anywhere -->
+
+</body>
+</html>
