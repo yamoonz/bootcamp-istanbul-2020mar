@@ -1,0 +1,31 @@
+
+ul{
+    float: left;
+}
+
+ul>li{
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+nav{
+    border: 5px solid black;
+}
+ table,td,td,th{
+ border:1px solid black;
+ border-collapse: collapse;
+ text-align: center;
+ 
+ }
+ ul,h1,.centeredcss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:auto ;
+    width: 100%;   
+ }
