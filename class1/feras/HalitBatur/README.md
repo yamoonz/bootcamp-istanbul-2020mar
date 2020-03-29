@@ -1,1 +1,0 @@
-This is the PesudoCode for class1
