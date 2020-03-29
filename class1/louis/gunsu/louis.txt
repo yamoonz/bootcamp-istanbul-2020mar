@@ -1,0 +1,55 @@
+turn the tap to the hot water side
+turn on the tap
+if (water is not hot)
+    wait 5 secs
+else
+    get the water
+check if (kettle is closer than the pot)
+    pour in the water till the pot is filled
+    turn on the kettle
+else 
+    get the tea pot
+    pour in the water till the pot is filled
+    turn on gas
+    turn on lighter
+    if fire doesn't exist (abort mission)
+    else
+    while(the stove is on)
+        if (water is boiling)
+            if (cup is found)
+              get a cup
+            else 
+             get a mug 
+            turn off the stove
+else
+    get the coffee pot
+    pour in the water till the pot is filled
+    turn on gas
+    turn on lighter
+    if fire doesn't exist (abort mission)
+    else
+    while(the stove is on)
+        if (water is boiling)
+            if (cup is found)
+              get a cup
+            else 
+             get a mug 
+            turn off the stove
+
+----
+Given a user input N, print all prime numbers below N (inclusive).
+
+If the user gives 16:
+2 3 5 7 11 13
+
+get N from the user 
+    Divide N to all numbers between 2 and squer root of N
+        If N is able to be divided do not print
+        if N=2 print N
+    else
+        print
+    N=N-1
+    go back to line 44
+if N=1 stop
+
+I'm sharing my screen 
