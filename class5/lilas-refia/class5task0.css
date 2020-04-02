@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#css-button {
+    color: white;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    border: 5px solid green;
+}
+
+#js-button {
+    background-color: rgb(38, 160, 197);
+    border: 5px solid rgb(38, 160, 197);
+    color: white;
+    
+}
+
+.js-button {
+    background-color: red;
+    border: 5px solid red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    
+}
+
+#nvp {
+    background-color: gray;
+    border: 5px solid gray;
+    color: white;
+}
+
+header {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    padding-top: 40%;
+    padding-bottom: 60%;
+    background-color: rgb(98, 92, 151);
+    text-align: right;
+    margin-right: 10px;
+        border-width: 50px;
+
+}
+
+
+header h1 {
+    color: white;
+    
+}
+
+#manifesto {
+    color: rgb(122, 204, 224);
+    
+}
+
+#home {
+    border: 2px solid rgb(122, 204, 224);
+    background-color: rgb(98, 92, 151);
+    color: white;
+    
+}
+
+#projects {
+    border: 2px solid rgb(122, 204, 224);
+    background-color: rgb(98, 92, 151);
+    
+}
+
+button a {
+    color: white;
+} 
+
+#header {
+    margin-right: 20px;
+}
+
+#avatar {
+    float: right;
+}
