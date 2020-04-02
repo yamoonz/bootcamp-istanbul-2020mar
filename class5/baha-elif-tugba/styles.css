@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+a {
+    color: royalblue;
+}
+h2 {
+    color: #B0CADB;
+    font-family: 'Bellota Text', cursive;
+    font-size: large;
+    margin-top: 0;
+}
+h4 {
+    color: grey;
+    font-family: 'Bellota Text', cursive;
+    font-weight: 300;
+    opacity: 1; 
+}
+hr{
+    line-height: 1px;
+    color:grey;
+    opacity: 30%;
+    border-bottom: none;
+}
+button {
+    background-color: #3D4E5D;
+    border: 2px solid #B0CADB;
+    color: white;
+    padding: 7px;
+    margin-top: 10px;
+    line-height: 1rem;
+    width: 30%;
+    margin-right: 5px;
+}
+p {
+    color: gray;
+}
+
+     .container-left{
+    background-color: #3D4E5D;
+    height: 170vh;
+    width: 23%;
+    float: left;
+    text-align: right;
+    padding: 30px;
+    color: white;
+    }
+    .container-right {
+        float: right;
+        width: 75%;
+        line-height: 2em;
+        padding-left: 40px;
+        margin-right: 20px;
+        max-height: 100%;
+    }
+
+    .js-button {
+        background-color: #3179b7;    
+        color: white;
+        padding: 3px;       
+    }
+    .css {
+        background-color: #5ABA59;
+        color: white; 
+        padding: 3px;
+        margin-left: 2px;
+    }
+    .avatar {
+        float: right;
+        width: 50px;
+        background-color: beige;
+        border-radius: 50%;
+    }
+    .js-button-2 {
+        background-color: #f70c72;
+        color: white;
+        padding: 3px;
+        margin-left: 2px;
+    }
+    .first-article {
+        display: block;
+        margin: 15px auto;
+        text-align: left;
+    }
+    .second-article {
+        display: block;
+        margin: 15px auto;
+        text-align: left;
+    }
+    .button3 {
+        background-color: grey;
+        color: white;
+        padding: 3px;
+        margin-left: 2px;
+    }
+    .travel1-img {
+        width: 430px;
+        height: 270px;
+        margin: 25px 0 25px;
+        box-sizing: border-box;
+    }
+    .travel2-img {
+        width: 420px;
+        height: 270px;
+        margin: 25px 0 25px 25px;
+        margin-left: 50px;
+        box-sizing: border-box;
+    }
+    .footer {
+        width: 100%;
+        text-align: center;
+        color: lightgrey;
+        margin-top: 40px;
+        margin-bottom: 0;
+
+    }
+    .footer a {
+        color: grey;
+        text-decoration: none;
+        margin: 20px;
+        font-family: 'Bellota Text', cursive;
+    }
+    .footer-note {
+        color: black;
+        font-family: 'Baloo Thambi 2', cursive;
+        font-size: small;
+
+    }
+    .left-text {
+        margin-top: 300px;
+    }
+    .subtitle {
+        color: gray;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.90rem;
+    }
+  
