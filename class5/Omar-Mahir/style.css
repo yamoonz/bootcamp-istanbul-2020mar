@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/********************HEADER left side**********************/
+
+header{
+    background-color: #3D4F5D;
+    height: 138vh;
+   padding: 25px;
+   text-align: right;
+}
+
+header div{
+    position: absolute;
+    top:35%;
+    left: 10%;
+}
+header div h1 {
+    color: white;
+    
+}
+
+header div p {
+    color: #ACBCBD;
+    margin-bottom: 10px;
+}
+
+header div a {
+    text-decoration: none;
+    color:white;
+    border: 2px solid #ACBCBD;
+    font-size: .75em;
+    padding: 4px 10px;
+}
+
+/************************sections right side*****************************/
+
+.right-side{
+    padding: 30px;
+}
+
+.content section p{
+    color: #BBB6BD; 
+}
+
+.content section > *{
+    margin-bottom: 10px;
+}
+
+.content section:not(:first-child) {
+    margin-bottom: 50px;
+}
+
+.content section a{
+    text-decoration: none;
+}
+
+.places{
+   width: 450px;    
+   margin-right: 20px;
+}
+
+.places-box{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    color: #BBB6BD; 
+}
+
+.avatar{
+    float: right;
+    width: 55px;
+    position: relative;
+    top: -40px;
+}
+/********************************CLASSES************************************/
+
+.col-1{
+    width: 25%;
+    float: left;
+}
+
+.col-2{
+    width: 66%;
+    float: left;
+}
+
+.col-3{
+    width: 100%;
+}
+
+.clearfix{
+    content:".";
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+
+.font-size{
+    font-size: .75em;
+}
+
+.css-color{
+    background-color: #5ABA59;
+    
+}
+
+.js-color{
+    background-color: #4D85D1;
+   
+}
+
+#js-color , .js-color , .css-color , .last-color {
+    color: white;
+    padding: 2px 5px;
+}
+
+.last-color{
+    background-color: #999999;
+}
+
+#js-color{
+    background-color: #DF2D4F;
+}
+
