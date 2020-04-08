@@ -38,8 +38,8 @@ function fiboSums(lim){
   let y = 2;
   let temp = 0;
   let sum = 0;
-  while (y<=lim){
-    console.log(x);
+  while (x<=lim){
+    //console.log(x); #commented out for the sake of the question
     if(x%2===0){
       sum = sum + x;
     }
