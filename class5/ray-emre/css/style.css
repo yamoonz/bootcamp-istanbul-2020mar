@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+
+header {
+	width: 55vw;
+	background-color: #3c4f5d;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	padding: 200px 10px;
+}
+
+section {
+	margin: 20px 20px;
+}
+section#others section:nth-child(2) {
+	margin-top: 20px;
+}
+section#others section:nth-child(2) article:nth-child(2) {
+	margin-top: 20px;
+}
+
+h1 {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+header a {
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	border: 2px solid rgb(61, 145, 167);
+	padding: 5px;
+}
+header p {
+	color: rgb(121, 171, 194);
+	text-align: right;
+}
+
+header nav {
+	display: block;
+	padding-top: 10px;
+}
+#others span {
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+/* #others span:not(:first-child) {
+	margin-top: 20px;
+} */
+#others h2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#others article {
+	position: relative;
+}
+#others article > img {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+figcaption a {
+	color: blue;
+}
+article > img {
+	width: 40px;
+	height: auto;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+#others section:nth-child(2) h2 {
+	margin-bottom: 10px;
+}
+figcaption {
+	color: gray;
+	margin-bottom: 10px;
+}
+span.css {
+	color: white;
+	background-color: #5aba59;
+	padding: 5px;
+}
+span.jss {
+	color: white;
+	padding: 5px;
+
+	background-color: #e0444f;
+}
+span.jss2 {
+	color: white;
+	background-color: #588be4;
+	padding: 5px;
+}
+span.visit {
+	color: white;
+	background-color: #999999;
+	padding: 5px;
+}
+div.img2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+div.img2 img {
+	width: 450px;
+	height: auto;
+}
+.recent {
+	margin-top: 40px;
+}
+footer a {
+	text-decoration: none;
+	color: rgba(37, 37, 37, 0.5);
+}
+footer {
+	text-align: center;
+}
+.space {
+	letter-spacing: 2px;
+}

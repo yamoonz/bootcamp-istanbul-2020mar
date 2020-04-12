@@ -1,0 +1,101 @@
+*{
+    font-family: "calibri";
+}
+a{
+    text-decoration: none;
+}
+.col-1 {
+    float:left;
+    background: #3d4f5d;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    margin-right: 10px;
+    
+}
+
+.css {
+    background-color: rgb(59, 170, 59);
+    color: white;
+    font-size: smaller;
+    padding: 0 10px;
+
+}
+
+.javascrip {
+    background-color: rgb(3, 87, 197);
+    padding: 0 10px;
+    color: white;
+    font-size: smaller;
+
+}
+
+.JavaScript {
+    background-color: rgb(255, 0, 64);
+    padding: 0 10px;
+    color: white;
+    font-size: smaller;
+
+}
+
+.Not-visited-places{
+    background-color: grey;
+    padding: 0 10px;
+    color: white;
+    font-size: smaller;
+    
+}
+.blog {
+    position: absolute;
+    top: 25%;
+    right: 20px;
+}
+nav p, nav h2, nav a{
+    color: white;
+    text-align: right;
+    
+}
+nav h2{
+    margin-bottom: -17px;
+}
+nav span {
+    border-style: solid;
+    border-color: #acc5d6;
+
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+.main-blogs {
+    width: 75%;
+    float: right;
+}
+.main-blogs a{
+    color: rgba(71, 145, 248, 0.822);
+}
+.img-slider{
+
+    float: right;
+    position: relative;
+    bottom: 5px;
+    width: 50px;
+}
+
+footer {
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.border-bottom{
+    border-bottom: 1px solid;
+    border-color: #acc5d6;
+    color: #acc5d6;
+}
+

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youkosou to the Emre in the Wonderland!</title>
+    <style>
+        * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+        }
+
+        body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+        }
+        table {
+    width: 80%;
+    border: 1px solid orange;
+        }
+        td {
+    border: 1px dotted rgba(0, 0, 0, 0.5);
+    text-align: center;
+        }
+        th {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        article, footer {
+            width: 90%;
+            margin: 0 auto;
+        }
+        #home {
+            height: 150px;
+            max-height: 25%;
+            display: flex;
+            align-items: center;  
+            box-shadow: 0px 14px 14px -8px rgba(0,0,0,0.75);
+            margin-bottom: 25px; 
+        }
+        .title1 {
+            width: 20%;
+            text-align: center;
+        }
+        .cats-gallery {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .cats-gallery img {
+            width: 300px;
+            border: 10px solid;
+            border-width: 5px;
+            border-image: linear-gradient(to right, green, white) 1;
+            margin: 0 11px;
+        }
+        nav {
+            width: 70%;
+        }
+        nav ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        nav ul li {
+            width: 100%;
+            font-size: 30px;
+        }
+        a, ul, li {
+            text-align: center;
+            text-decoration: none;
+            list-style: none;
+            color: black;
+        }
+
+        .aboutme{
+            padding-top: 20px;
+
+        }
+        #team table {
+            width: 100%;
+            margin: -130px 20px 20px 20px;
+        }
+
+        article:nth-last-of-type(1) {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        #videoForm {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .DevilmanUta, #contact {
+            min-width: 20%;
+        } 
+
+        input {
+            width: 500px;
+            height: 40px;
+            font-size: 25px;
+        }
+        textarea {
+            min-width: 500px;
+            min-height: 150px;
+            font-size: 20px;
+        }
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 200px;
+            
+        }
+        footer img {
+            width: 55px;
+            height: auto;
+        }
+        footer ul {
+            margin-top: 10px;
+            width: 500px;
+        }
+        footer ul li{
+            display: inline-block;
+            padding-right: 25px;
+        }
+    </style>
+</head>
+<!-- While working on this, do remember to use the proper semantics 👍-->
+<body>
+    <article id="home">
+    <!-- Create a big text that contains Your name -->
+    <h1 class="title1">Emre ERDEM</h1>
+  
+    <!-- Create list 📃 that will be used for navigations that contains the following:
+    Home, About, FAQ, Login
+    -->
+    <nav>
+        <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#">FAQ</a> </li>
+        <li><a href="#">Login</a> </li>
+        <li><a href="#contact">Contact</a> </li>
+        </ul>
+    </nav>
+    </article>
+<!--  Add a picture here of something you like and add description to it  -->
+    <!-- Talk a little bit about yourself here, talk about
+        where you're from, date of birth (needs to be search engine friendly) , where you studied before,
+        use bold when you mention things you like ♥ and italic when mentioning something you dislike 💔 -->
+    <article id="about">
+        <div class="cats-gallery">
+            
+            <img src="https://i.imgyukle.com/2020/03/26/JBW5tH.jpg" alt="my lovely cat Angela">
+            <img src="https://i.imgyukle.com/2020/03/27/JG2CIh.png" alt="Nazli and her baby">
+            <img src="https://i.imgyukle.com/2020/03/27/JGqSQQ.jpg" alt="when I tease the Wind">
+            <img src="https://i.imgyukle.com/2020/03/27/JGquct.jpg" alt="Yellow Queen">
+            <img src="https://i.imgyukle.com/2020/03/27/JGqyZs.jpg" alt="the Wind is upset">
+        </div>
+        <p class="aboutme">As you can see with the picture of one of the most miscief cats, Angela, and other beautiful ladies above, I'm a <b>cat-lover</b>. I and my father
+        have been feeding stray cats and dogs for a few years, and they make us laugh hard even today! I'm from Cappadocia by the way,
+        one can say I'm an old fart that born in 10/09/1994. I'm coming from a small but lovely family that we run a pottery workshop alltogether.^^ I have graduated of Management Information Systems in which I learn a general
+        concept of variety of <b>programming languages</b>.
+    </p>
+    </article>
+    <!-- Create a table here that contains the following data about your friends :
+    Columns: Name, address, school, phone number, date of birth
+    Add data that corresponds to the columns mentioned above, Doesn't have to be true 😁
+    -->
+    <article id="team">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>School</th>
+            <th>Phone number</th>
+            <th>Summary</th>
+        </tr><br>
+        <tr>
+            <td>Yaman kahveci</td>
+            <td>Beylikdüzü</td>
+            <td>Istanbul State University</td>
+            <td>+90...</td>
+            <td>A lovely girl of 20th Century</td>
+        </tr><br>
+        <tr>
+            <td>Ray
+            <td>Bakırköy</td>
+            <td>Self-study</td>
+            <td>+90...</td> 
+            <td>An ambicious boy of 21th Century</td>
+
+        </tr><br>
+        <tr>
+            <td>Günsu Bilge</td>
+            <td>İstanbul</td>
+            <td>Marmara University</td>
+            <td>+90...</td>  
+            <td>A friendly girl of 21th Century</td>
+        </tr><br>
+        <tr>
+            <td>Dara</td>
+            <td>Istanbul</td>
+            <td>Kamaloon University</td>
+            <td>+90...</td>
+            <td>A karateka girl of 20th Century</td>
+        </tr><br>
+        <tr>
+            <td>Halit</td>
+            <td>Istanbul</td>
+            <td>Yıldız Teknik University</td>
+            <td>+90...</td>
+            <td>An Otaku boy of 20th Century</td>
+        </tr><br>
+        <tr>
+            <td>Omar</td>
+            <td>Avcılar</td>
+            <td>Altınbas University</td>
+            <td>+90...</td>
+            <td>A reliable boy of 20th Century</td>
+        </tr>
+    </table>
+    </article>
+    <article id="videoForm">
+    
+    <!-- Take your favorite video from youtube and make it playable from this page -->
+    <div class="DevilmanUta">
+        <h2>Here is one of my favourite soundtracks!</h2><br>
+        <iframe width="642" height="361" src="https://www.youtube.com/embed/diuexInkshA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+    <!-- Add a form to contact you that has Name, Email, and Message -->
+    <form id="contact">
+        <label for="name">Name</label><br>
+        <input type="text"><br><br>
+        <label for="email">Email</label><br>
+        <input type="text"><br><br>
+        <label for="message">Feedback</label><br>
+        <textarea cols="30" rows="10" placeholder="Your precious feedback..."></textarea>
+    </form>
+    </article>
+    <!-- Add a footer with links to social media, links don't have to go anywhere -->
+    <footer>
+        <h4>Follow me on social medias!</h4>
+        <ul>
+            <li><a href="https://instagram.com/herecomesemre"><img src="https://i.imgyukle.com/2020/03/27/Jmr7cf.png" alt="Instagram Logo"></a></li>
+            <li><a href="https://linkedin.com/in/emrerdem94/"><img src="https://i.imgyukle.com/2020/03/27/JmrMHj.png" alt="LinkedIn Logo"></a></li>
+            <li><a href="https://learn.co/emrerdem"><img src="https://i.imgyukle.com/2020/03/27/JmCfjf.png" alt="Learn.co logo couldn't find"></a></li>
+        </ul>
+   
+    </footer>
+</body>
+</html>

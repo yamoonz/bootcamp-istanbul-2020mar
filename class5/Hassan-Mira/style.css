@@ -1,0 +1,167 @@
+/* .wrapper {
+    width: 100%;
+}
+
+.vnav {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: #eee;
+}
+
+#blog {
+    width: 75%;
+    background-color: #123;
+} */
+
+* {
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+
+.left-container {
+    padding-bottom: 1224px;
+    width: 25%;
+    max-width: 100%;
+    height: 100%;
+    float: left;
+    background: #3D4F5D;
+}
+
+.vnav {
+    position: relative;
+    top: 200px;
+    text-align: right;
+    padding: 20px;
+}
+
+.left-container h1 {
+    font-size: 2em;
+    margin-bottom: -15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
+.left-container h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #B0CADB;
+    text-align: right;
+}
+
+.nav-btn {
+    width: 100%;
+    
+}
+
+.left-container a {
+    border: 3px solid #B0CADB;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.clearfix:after {
+    content: ".";
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+
+.right-container {
+    margin-bottom: 150px;
+    padding: 30px;
+    width: 75%;
+    float: left;
+    background:#fff;
+}
+
+
+.grey-text {
+    letter-spacing: 2px;
+    font-weight: 100;
+    padding-bottom: 7px;
+    color: #A9B2C8;
+    border-bottom: 1px #eee solid;
+    text-transform: uppercase;
+}
+
+.blog-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+.title-container img {
+    width: 6%;
+    float: right;
+}
+
+.author {
+    color: rgb(148, 148, 148);
+}
+
+.author a {
+    color: #65A5D0;
+}
+
+.blog-meta {
+    float: left;
+    width: 100%;
+}
+
+.author span {
+    padding: 5px 10px;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.css {
+    background: #5BBA59;
+}
+
+.js {
+    background: #4C85D0;
+}
+
+.javascript {
+    background: #E0424F;
+}
+
+.places {
+    background: #999999;
+}
+
+#blog article {
+    margin-bottom: 100px;
+}
+
+.img-container img {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.footer-links a {
+    color: rgb(121, 128, 143);
+    margin-right: 15px;
+    text-decoration: none;
+}
