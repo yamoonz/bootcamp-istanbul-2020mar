@@ -1,0 +1,16 @@
+Pseudo code for boiling water:
+
+go to the kitchen
+bring a pan
+if(there is water)
+fill the pan
+else buy water
+if(pan is small)
+for(1 to 5 lt)
+fill pan
+if(stove not working)
+bring kettle
+(if there is electricity)
+boil water in kettle
+if kettle not working
+use microwave
