@@ -132,7 +132,11 @@ footer {
 }
 footer img {
 	width: 26px;
-	margin: 10px;
+}
+#github a {
+    width: 26px;
+    height: 26px;
+    margin: 10px;
 }
 footer h3 {
 	font-size: 80%;
@@ -176,6 +180,13 @@ footer br {
 	left: 50%;
 	transform: skew(0, -20deg);
 }
+.input-font {
+  text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5;
+} 
 
 @media only screen and (max-width: 910px) {
 	.texT {
@@ -259,4 +270,42 @@ footer br {
 		position: absolute;
 		bottom: -10px;
 	}
+}
+
+@media only screen and (max-width: 480px) {
+  #title-total {
+    width: 50%;
+  }
+  #logo h1 {
+    font-size: 8vw;
+  }
+  #logo img {
+    width: 70%;
+  }
+  #game-sum p{
+    font-size: 3vw;
+  }
+}
+input {
+  padding: 2px;
+  width: 85px;
+  transition: width 1s ease-in-out;
+}
+/*regarding inputs*/
+::placeholder {
+  color:black;
+}
+/*highlights of inputs*/
+input:not(:placeholder-shown) {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+input:placeholder-shown {
+  background-color: lightgrey;
+  background-image: linear-gradient(62deg, lightgrey 0%,darkgrey, 100%); 
+}
+input:focus {
+  width: 95px;
+  border-color: #0d5425;
+  box-shadow: 0px 0px 18px 3px #0d5425;
 }
