@@ -39,6 +39,8 @@ while (cur < 4000000) {
   }
 }
 console.log(total);
+<<<<<<< HEAD
+=======
 */
 
 function societyName(arr) {
