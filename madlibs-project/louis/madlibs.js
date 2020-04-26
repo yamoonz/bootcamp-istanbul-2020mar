@@ -79,6 +79,7 @@ const addSpaceSpan = (parent) => {
 const PUNCTUATION = [",", "."];
 const INPUT_RESIZE_BREAKPOINT_CHARS = 10;
 const DEFAULT_INPUT_SIZE = "90px";
+const ENTER_KEYCODE = 13;
 
 /**
  * All your other JavaScript code goes here, inside the function. Don't worry about
@@ -108,7 +109,9 @@ getRawStory()
         editInput.maxLength = 20;
         editInput.style.width = DEFAULT_INPUT_SIZE;
         editInput.classList.add("emptyInput");
-        editInput.addEventListener("input", function (e) {
+
+        // Implement syncing.
+        editInput.addEventListener("input", (e) => {
           if (e.target.value.length > 0) {
             posPreview.innerText = e.target.value;
             editInput.classList.remove("emptyInput");
@@ -124,6 +127,18 @@ getRawStory()
             e.target.style.width = this.value.length + "ch";
           } else {
             e.target.style.width = DEFAULT_INPUT_SIZE;
+          }
+        });
+
+        // Handle enter key with wraparound.
+        editInput.addEventListener("keydown", (e) => {
+          if (e.keyCode === ENTER_KEYCODE) {
+            const inputs = document.querySelectorAll("input");
+            // querySelectorAll doesn't normally have indexOf: look it up.
+            const currentIndex = [].indexOf.call(inputs, e.target);
+            const nextIndex =
+              currentIndex + 1 >= inputs.length ? 0 : currentIndex + 1;
+            inputs[nextIndex].focus();
           }
         });
 
