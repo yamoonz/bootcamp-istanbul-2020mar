@@ -165,14 +165,6 @@ getRawStory()
       //
       // Handle spacing properly. All words should have a space after it UNLESS
       // the next word is punctuation (may be confusing -- think about it though).
-      //
-      // We declare a new variable to avoid mutating an existing variable.
-      //
-      // Check out this article. We're not quite using function parameters here
-      // but it's the same idea; it's more "defensive" to use a variable with a
-      // clearer name.
-      //
-      // https://spin.atomicobject.com/2011/04/10/javascript-don-t-reassign-your-function-arguments/
       let shouldAddSpaceAfter = false;
       if (
         i + 1 < processedStory.length &&
