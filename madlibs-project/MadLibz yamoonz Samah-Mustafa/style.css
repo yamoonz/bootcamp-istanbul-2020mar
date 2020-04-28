@@ -1,0 +1,17 @@
+/**
+ * Your CSS goes here.
+ */
+
+.madLibsEdit {
+	margin: 100px;
+	text-align: center;
+}
+
+.madLibsPreview {
+	text-align: center;
+	background: #CCC;
+	height: 200px;
+	display:block;
+	margin: 100px;
+	font-size: 30px;
+}
