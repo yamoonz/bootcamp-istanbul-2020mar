@@ -83,16 +83,19 @@ function preview(processedStory) {
      if(element.pos==='noun'){
       let nOutput = document.createElement("span");
         nOutput.textContent="(noun)";
+        nOutput.style.color = "#acdae6";
       par.appendChild(nOutput);
       }
     else if(element.pos==='verb'){
       let vOutput = document.createElement("span");
       vOutput.textContent= "(verb)";
+      vOutput.style.color="#acdae6";
       par.appendChild(vOutput);
       }
     else if(element.pos==='adj'){
       let aOutput = document.createElement("span");
       aOutput.textContent= "(adj)";
+      aOutput.style.color= "#acdae6";
         par.appendChild(aOutput);
       }
     else{
@@ -102,18 +105,24 @@ function preview(processedStory) {
     }
     
 }
-
 function moveNext(){
   let inputArr = document.querySelectorAll("input[type='text']");
   let j=1;
-  for (let i=0; i<inputArr.length; i++){
+  let i=0;
+  while(j<inputArr.length){
     let next= inputArr[j++];
     inputArr[i].addEventListener('keypress', function(e) {
     if (e.keyCode === 13) {
-      next.focus();
+      if(!e.target.value){
+        alert("please fill the blank");
       }
-    });
-}
+      else{
+        next.focus();
+      }
+    
+    } });
+    i++
+  }
 }
 
 function liveUpdate(){
@@ -122,16 +131,13 @@ function liveUpdate(){
   for(let i=0; i<inputArr.length;i++){
     let test =spans[i].textContent;
     inputArr[i].addEventListener('input',function(){
- 
         spans[i].textContent=inputArr[i].value;
-        console.log(inputArr[i].value);
         spans[i].style.color="#c1e1e8";
         if(spans[i].textContent.length===0){
           spans[i].innerText= test;
           spans[i].style.color='red';
         }
-      
-
+    
       });
   }
      
